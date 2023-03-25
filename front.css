@@ -1,0 +1,140 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container{ 
+    display: flex;
+    width: 1898px;
+    padding-top: 24px ;
+    padding-left: 39px ;
+    padding-right: 39px ;
+    padding-bottom: 120px ;
+    background-color: 
+    #FFFFFF;
+}
+.header-title1 {
+    display: inline-block; 
+    margin-left: 150px;
+    margin-right: 80px;
+
+}
+.header-title2 {
+    display: inline-block; 
+    margin-right: 80px;
+}
+.header-title3 {
+    display: inline-block; 
+    margin-right: 80px;
+}
+.header-title4 {
+    display: inline-block; 
+    margin-right: 454px;
+}
+.SignIn {
+    display: inline-block;
+    margin-right: 32px;
+}
+.SignUp {
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    line-height: 48px;
+    width: 202px;
+    height: 48px;
+    left: 957px;
+    top: 24px;
+    margin: 0 auto;
+
+    background-color: #424242;
+    border-radius: 4px;
+}
+.header-subtitle1 {
+    margin-top: 202px;
+    width: 565px;
+    height: 62px;
+    left: 39px;
+    top: 202px;
+    
+    font-size: 51px;
+    line-height: 61px;
+}
+.header-subtitle2 {
+    width: 431px;
+    height: 62px;
+    left: 39px;
+    top: 263px;
+    bottom: 36px;
+    
+    font-size: 50px;
+    line-height: 61px;
+}
+.header-description {
+    width: 573px;
+    height: 72px;
+    left: 39px;
+    top: 361px;
+
+    font-size: 22px;
+    line-height: 36px;
+}
+.block {
+    margin-top: 57px;
+    width: 237px;
+    height: 48px;
+    left: 39px;
+    top: 479px;
+
+    background: #FFCEE0;
+    border-radius: 4px;
+    text-align: none;
+}
+.block-title2 {
+    display: inline-block; 
+    position: absolute;
+    line-height: 3em;
+}
+.block-title3 { 
+    display: inline-block; 
+    width: 48px;
+    height: 48px;
+    left: 39px;
+    top: 479px;
+
+    background: #FF4B4B;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+.block-title3 {
+    background-image: url(https://www.shinsegae.com/resources/site/img/common/btn_arrow_next_black.png);
+    background-size: cover;
+    background-position: center;
+}
+.header-img {
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-left: 972px;
+    position:relative;
+    top:-480px;
+}
